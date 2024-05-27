@@ -1,0 +1,123 @@
+@import "../../styles/variables.scss";
+
+.card-wrapper {
+  border: 1px solid #babfce;
+  margin-top: 20px;
+  padding: 1px;
+  border-radius: 12px;
+
+  img {
+    width: 250px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .offer-image {
+    align-self: center;
+    margin-right: 20px;
+  }
+}
+
+.home-offer-details {
+  background: white;
+  display: flex;
+  padding: 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  align-items: flex-start;
+}
+
+.basic-details {
+  display: flex;
+  align-items: center;
+
+  h3 {
+    width: 100%;
+    font-size: 16px;
+    color: $primaryDarkText;
+    font-weight: bolder;
+  }
+
+  p {
+    font-size: 12px;
+    color: $primaryDarkText;
+    font-weight: bolder;
+  }
+}
+
+.all-details {
+  width: 100%;
+}
+
+.card-actions {
+  border-top: 1px solid #babfce;
+  display: flex;
+  padding: 12px 10px;
+  justify-content: flex-end;
+
+  button {
+    max-width: max-content;
+    max-height: max-content;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2A4D69;
+
+
+    &:first-of-type {
+      color: $primaryBlue;
+    }
+
+    &:last-of-type {
+      color: $primaryRedError;
+    }
+  }
+}
+
+.description-section {
+  display: -webkit-box;
+  max-width: 850px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 70px;
+  font-size: 12px;
+  color: $primaryDarkText;
+}
+
+.date-price-details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: $primaryDarkText;
+    font-size: 14px;
+  }
+}
+
+.price-details {
+  display: flex;
+  align-items: center;
+
+  p {
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+
+    &:first-of-type {
+      color: $primaryDarkText;
+      margin-right: 10px;
+    }
+
+    &:last-of-type {
+      color: $primaryBlue;
+    }
+  }
+}

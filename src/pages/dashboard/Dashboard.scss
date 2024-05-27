@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.dashboard {
+  height: 100vh;
+  width: 100%;
+}
+
+.dashbord-wrapper {
+  display: flex;
+}
+
+.user-info-wrapper {
+  max-width: 525px;
+  background-color: $primaryBlue;
+  height: 110vh;
+  width: 100%;
+}
+
+.dashboard-container {
+  width: 100%;
+  padding: 0 70px;
+  border-top: 2px solid rgba(128, 128, 128, 0.5);
+  background-color:rgba(59, 75, 83, 0.05);;
+}
+
+.filters-wrapper {
+  display: flex;
+  margin: 25px 0 30px;
+}
+
+.pagination {
+  justify-content: flex-end;
+}

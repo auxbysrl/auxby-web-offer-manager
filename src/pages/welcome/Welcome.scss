@@ -1,0 +1,12 @@
+.welcome {
+    text-align: center;
+    background: url("../../images/background_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: 600px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }

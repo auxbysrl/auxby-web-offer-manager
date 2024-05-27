@@ -1,0 +1,21 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.add-offer-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 100vh;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .card-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #4B86B4;
+    }
+}
